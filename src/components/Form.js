@@ -23,7 +23,7 @@ const Form = () => {
             <label>Email</label>
             <input type="email" name="user_email" placeholder=' please input your email ' required></input>
             <label>Subject</label>
-            <input type="text" name="subject"  placeholder=' please input your subject here' required></input>
+            <input type="text"   placeholder=' please input your subject here' required></input>
             <label>Message</label>
             <textarea  rows="6" name="message" placeholder="Type your text here " />
             <button type='submit' value="Send" className='btn'>Submit</button>
